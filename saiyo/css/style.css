@@ -114,7 +114,7 @@ footer
     text-align: right;
     line-height: 25px;
     color: white;
-    font-size: 13px;
+    font-size: 1%;
     padding: 2px;
     position: absolute;
     bottom:0px;
@@ -150,6 +150,8 @@ footer
     top: 25%;
     left: 3%;
     font-family:'Yu Mincho';
+    padding-right:0.2vw;
+    padding-right:0.2vw;
     z-index: 100;
 
 }
@@ -163,6 +165,7 @@ footer
     font-size: 0.9vw;
     width: 42%;
     height: 65%;
+    min-height:55vh;
     background-color: rgb(253, 253, 253);
     opacity: 0.8;
     padding-left: 2%;
@@ -691,8 +694,8 @@ footer
 
 
 
-@media screen and (max-width:375px) 
-{ /*ウィンドウ幅が最大375pxまでの場合(iPhoneX縦)に適用*/
+@media screen and (max-width:415px) 
+{ /*ウィンドウ幅が最大400pxまでの場合(iPhoneX縦)に適用*/
   .LogoImage
   {
     position: absolute;
@@ -750,19 +753,24 @@ footer
     font-weight:bold;
     font-size: 6vw;
     color: black;
-    position: absolute;
     top:23%;
     left: 7%;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
     font-family:'Yu Mincho';
     z-index: 100;
+    position: relative;
   }
 
   .Shubun
   {
+    position:relative;
     font-weight: bolder;
     text-align: center;
     line-height: 170%;
-    font-size: 13px; 
+    font-size: 1.8vh; 
     transform: scale(0.8);
     transform-origin: 0 0;
     width: 95%;
@@ -772,12 +780,18 @@ footer
     padding-left: 7%;
     padding-right: 7%;
     padding-top: 6%;
-    padding-bottom: 22%;
-    left: 6%;
+    padding-bottom: 0;
+    margin:0;
+    left: 10%;
     right: 10%;
-    position: absolute;
     top:39%;
     z-index: 100;
+  }
+  .top
+  {
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .bold
@@ -787,6 +801,7 @@ footer
 
   footer
   {
+      z-index: 100;
       width: 100vw;
       height: 4%;
       background-color: black;
@@ -795,14 +810,13 @@ footer
       color: white;
       font-size: 1%;
       padding: 2px;
-      position: absolute;
       bottom:0px;
   }
 
 
 }
 
-  @media screen and (min-width:376px) and (max-width:815px)
+  @media screen and (min-width:416px) and (max-width:815px)
 { /*ウィンドウ幅が最大376~815pxまでの場合(iPhoneX横)に適用*/
 
   
