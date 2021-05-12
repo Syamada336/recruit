@@ -144,7 +144,7 @@ footer
 .CatchCopy
 {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 3.1vw;
     color: black;
     position: absolute;
     top: 25%;
@@ -161,7 +161,7 @@ footer
     font-weight: bold;
     text-align: center;
     line-height: 260%;
-    font-size: 0.5em;
+    font-size: 0.9vw;
     width: 42%;
     height: 65%;
     background-color: rgb(253, 253, 253);
