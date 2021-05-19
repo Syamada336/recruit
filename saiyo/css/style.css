@@ -470,7 +470,7 @@ footer
 
 .Shubun_eigyou
 {
-    font-size:clamp(1vw,1.5vh,30px);
+    font-size:clamp(1vw,1.5vh,28px);
     font-weight: bold;
     text-align: center;
     line-height: 38px;
